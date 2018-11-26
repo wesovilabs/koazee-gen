@@ -10,4 +10,4 @@ deps: clean
 fmt:
 	GO111MODULE=on ${GO} fmt ./...
 generate:
-	${GO} generate
+	${GO} generate koazee-gen.go
